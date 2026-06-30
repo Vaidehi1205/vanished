@@ -16,7 +16,7 @@ window.__sceneAPI__ = { getHotspots, getSceneBg };
 
 // ===== AUDIO =====
 let audio = null;
-const AMBIENT_URL = 'https://vtelpopqybfytrgzkomj.supabase.co/storage/v1/object/public/game-assets/public/328347c7-7766-4ebb-a220-e039d09228a2/1a9a28f9-9e58-4322-a785-cf1e05dadcca/83095140-072a-4aab-955a-0dd99b56cb57.mp3';
+const AMBIENT_URL = '../ambient_rain.mp3';
 
 async function initAudio() {
   try {
