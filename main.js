@@ -9,7 +9,6 @@ import { updateHUD, renderHUD, renderScene, renderCluePanel, renderNotebook,
          renderEndingScreen, renderMapScreen, showNotification } from './ui.js';
 import { initBoard, rebuildPins, render as renderBoard, handleBoardClick,
          getKeyConnectionsMade } from './board.js';
-import { createStarAudio } from '/star-sdk/audio.js';
 
 // Expose scene API for ui.js
 window.__sceneAPI__ = { getHotspots, getSceneBg };
