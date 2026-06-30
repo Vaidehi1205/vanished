@@ -3,16 +3,16 @@
 
 import { state, advanceTime, addTimelineEntry, markFactDiscovered, isFactKnown, unlockLocation, canTravel } from './gamestate.js';
 
-const HOTEL_BG    = 'https://vtelpopqybfytrgzkomj.supabase.co/storage/v1/object/public/game-assets/public/328347c7-7766-4ebb-a220-e039d09228a2/1a9a28f9-9e58-4322-a785-cf1e05dadcca/195647c0-2a0b-4c17-a7a5-158ecf27b9cc.png';
-const HOTEL_ROOM_BG = 'https://vtelpopqybfytrgzkomj.supabase.co/storage/v1/object/public/game-assets/public/328347c7-7766-4ebb-a220-e039d09228a2/1a9a28f9-9e58-4322-a785-cf1e05dadcca/86784426-6d89-4cb2-935d-27a0817f20ca.png';
-const LOBBY_BG    = 'https://vtelpopqybfytrgzkomj.supabase.co/storage/v1/object/public/game-assets/public/328347c7-7766-4ebb-a220-e039d09228a2/1a9a28f9-9e58-4322-a785-cf1e05dadcca/5415261c-d570-4b78-9ae1-b83ee17d71fb.png';
-const FOREST_BG   = 'https://vtelpopqybfytrgzkomj.supabase.co/storage/v1/object/public/game-assets/public/328347c7-7766-4ebb-a220-e039d09228a2/1a9a28f9-9e58-4322-a785-cf1e05dadcca/d872ceec-405b-40f3-8d80-68dd3cf9b539.png';
-const LAKE_BG     = 'https://vtelpopqybfytrgzkomj.supabase.co/storage/v1/object/public/game-assets/public/328347c7-7766-4ebb-a220-e039d09228a2/1a9a28f9-9e58-4322-a785-cf1e05dadcca/a6f8eb7a-1973-4871-afb3-f61498abcd70.png';
-const CHAPEL_BG   = 'https://vtelpopqybfytrgzkomj.supabase.co/storage/v1/object/public/game-assets/public/328347c7-7766-4ebb-a220-e039d09228a2/1a9a28f9-9e58-4322-a785-cf1e05dadcca/3b53b518-3bb4-453c-9944-97be6eb582e9.png';
-const TUNNELS_BG  = 'https://vtelpopqybfytrgzkomj.supabase.co/storage/v1/object/public/game-assets/public/328347c7-7766-4ebb-a220-e039d09228a2/1a9a28f9-9e58-4322-a785-cf1e05dadcca/ef1c1df5-5883-4ab2-b4e3-9f44201290ea.png';
-const CAVE_BG     = 'https://vtelpopqybfytrgzkomj.supabase.co/storage/v1/object/public/game-assets/public/328347c7-7766-4ebb-a220-e039d09228a2/1a9a28f9-9e58-4322-a785-cf1e05dadcca/cba7e9ec-9ab0-4183-ae2a-ad9435bf60d6.png';
-const MUSEUM_BG   = 'https://vtelpopqybfytrgzkomj.supabase.co/storage/v1/object/public/game-assets/public/328347c7-7766-4ebb-a220-e039d09228a2/1a9a28f9-9e58-4322-a785-cf1e05dadcca/68f136de-6dc5-4c7e-9b52-cb1af0199312.png';
-const OBS_BG      = 'https://vtelpopqybfytrgzkomj.supabase.co/storage/v1/object/public/game-assets/public/328347c7-7766-4ebb-a220-e039d09228a2/1a9a28f9-9e58-4322-a785-cf1e05dadcca/5b1118cb-bc90-426f-82f9-b49382e6b863.png';
+const HOTEL_BG    = '../hotel_bg.png';
+const HOTEL_ROOM_BG = '../hotel_room_bg.png';
+const LOBBY_BG    = '../lobby_bg.png';
+const FOREST_BG   = '../forest_bg.png';
+const LAKE_BG     = '../lake_bg.png';
+const CHAPEL_BG   = '../chapel_bg.png';
+const TUNNELS_BG  = '../tunnels_bg.png';
+const CAVE_BG     = '../cave_bg.png';
+const MUSEUM_BG   = '../museum_bg.png';
+const OBS_BG      = '../observatory_bg.png';
 
 export function getSceneBg(locationId) {
   const bgMap = {
